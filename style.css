@@ -1,0 +1,64 @@
+/*
+Theme Name:   Prodent Child
+Theme URI:    http://example.com/twenty-fifteen-child/
+Description:  Prodent Child Theme
+Author:       Federico Toldo
+Author URI:   http://example.com
+Template:     prodent
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  prodentchild
+*/
+body > div.body_wrap > div > header > div.top_panel_title.sc_layouts_row.sc_layouts_row_type_normal.scheme_dark {
+  background-color: cadetblue !important;
+}
+body > div.body_wrap > div > header > div.top_panel_title.sc_layouts_row.sc_layouts_row_type_normal.scheme_dark div > div > div > div > div.sc_layouts_title_breadcrumbs > div > span.breadcrumbs_item.current {
+  color: black !important;
+}
+body > div.body_wrap > div > header > div.top_panel_title.sc_layouts_row.sc_layouts_row_type_normal.scheme_dark div > div > div > div > div.sc_layouts_title_breadcrumbs > div > a:hover {
+  color: black !important;
+}
+
+@media (max-width : 998px) {
+  body > div.body_wrap > div > header > div.top_panel_navi.sc_layouts_row.sc_layouts_row_type_compact.sc_layouts_row_fixed > div {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body > div.body_wrap > div > header > div.top_panel_navi.sc_layouts_row.sc_layouts_row_type_compact.sc_layouts_row_fixed > div div.sc_layouts_column.sc_layouts_column_align_left.sc_layouts_column_icons_position_left.column-1_4 {
+    width: auto !important;
+  }
+  body > div.body_wrap > div > header > div.top_panel_navi.sc_layouts_row.sc_layouts_row_type_compact.sc_layouts_row_fixed > div div.sc_layouts_column.sc_layouts_column_align_right.sc_layouts_column_icons_position_left.column-3_4 {
+    padding-top: 0 !important;
+    width: auto !important;
+  }
+  #menu_mobile {
+    margin: 4rem 0;
+  }
+  #menu_mobile li.menu-item a {
+    padding: 1rem 0;
+    text-align: center;
+  }
+  body > div.body_wrap > div > header > div.top_panel_title.sc_layouts_row.sc_layouts_row_type_normal {
+    padding: 26px;
+  }
+  body > div.body_wrap > div > header > div.top_panel_title.sc_layouts_row.sc_layouts_row_type_normal.scheme_dark > div > div {
+    text-align: left !important;
+  }
+  body > div.body_wrap > div > header > div.top_panel_title.sc_layouts_row.sc_layouts_row_type_normal.scheme_dark > div {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body > div.body_wrap > div > div.page_content_wrap > div {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  body > div.body_wrap > div > div.page_content_wrap > div div {
+    width: 100% !important;
+  }
+  article {
+    padding: 16px !important;
+  }
+}
