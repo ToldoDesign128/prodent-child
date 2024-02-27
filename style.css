@@ -62,3 +62,9 @@ body > div.body_wrap > div > header > div.top_panel_title.sc_layouts_row.sc_layo
     padding: 16px !important;
   }
 }
+.sc_services_item_icon {
+  color: #004a74 !important;
+}
+.sc_services_item_icon:hover {
+  color: white !important;
+}
